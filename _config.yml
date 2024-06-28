@@ -28,14 +28,14 @@ nav:
   menu:
     - title: 网页
       item:
-        - name: 博客
-          link: https://blog.anheyu.com/
+        - name: 主站
+          link: https://tangbojin.cn/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+    # - title: 项目
+    #   item:
+    #     - name: 安知鱼图床
+    #       link: https://image.anheyu.com/
+    #       icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -234,7 +234,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 贵阳
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: /img/wechatpay.webp
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: /img/alipay.webp
       link:
       text: 支付宝
 
@@ -428,7 +428,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2024
   custom_text:
   runtime:
     enable: false
@@ -1034,11 +1034,11 @@ pwa:
   startup_image_enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
-  mask_icon: /img/siteicon/apple-icon-180.png
-  apple_touch_icon: /img/siteicon/apple-icon-180.png
-  bookmark_icon: /img/siteicon/apple-icon-180.png
-  favicon_32_32: /img/siteicon/32.png
-  favicon_16_16: /img/siteicon/16.png
+  mask_icon: /img/siteicon/tiger-180.png
+  apple_touch_icon: /img/siteicon/tiger-180.png
+  bookmark_icon: /img/siteicon/tiger-180.png
+  favicon_32_32: /img/siteicon/tiger-48.png
+  favicon_16_16: /img/siteicon/tiger-16.png
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
