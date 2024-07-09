@@ -29,7 +29,7 @@ if site.data.about
         .author-content-item.myInfoAndSayHello
           .title1 你好，很高兴认识你👋
           .title2
-            | 我叫 
+            | 我是 
             span.inline-word=aboutName
           .title1=aboutDescription
         .aboutsiteTips.author-content-item
@@ -139,12 +139,12 @@ if site.data.about
       .author-content
         .author-content-item.personalities
           - let {author_name, personality_type, photo_url, personality_img, name_url, personality_type_color} = item.personalities
-          .author-content-item-tips 性格
+          .author-content-item-tips 人物
           span.author-content-item-title= author_name
           .title2(style=`color:${personality_type_color ? personality_type_color : "#ac899c"}`)= personality_type
           .post-tips
             | 在 
-            a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
+            a(href='https://pvp.qq.com/web201605/herodetail/108.shtml', target='_blank', rel='noopener nofollow') 农药
             |  了解更多关于 
             a(target='_blank', rel='noopener external nofollow', href= name_url)= author_name
           .image
